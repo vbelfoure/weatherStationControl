@@ -1,0 +1,27 @@
+{
+  "name": "weatherpi",
+  "version": "1.0.0",
+  "description": "Control RaspberryPi weather station",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbelfoure/weatherStationControl.git"
+  },
+  "author": "Vincent Belfoure",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbelfoure/weatherStationControl/issues"
+  },
+  "homepage": "https://github.com/vbelfoure/weatherStationControl#readme",
+  "devDependencies": {
+    "nodemon": "^1.14.12"
+  },
+  "dependencies": {
+    "azure-iothub": "^1.2.4",
+    "express": "^4.16.2"
+  }
+}
